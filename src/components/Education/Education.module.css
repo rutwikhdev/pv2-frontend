@@ -1,0 +1,28 @@
+.projectstitle {
+    margin: 40px 50px;
+    font-size: 22px;
+    color: var(--deepGreen);
+    font-weight: bold;
+    justify-content: center;
+}
+.center{
+    margin: auto;
+}
+.tile{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.tile_content{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.degree{
+    height: 100px;
+    width: 100px;
+}
+.degree_names{
+    margin-left: 20px;
+    font-size: 20px;
+}
