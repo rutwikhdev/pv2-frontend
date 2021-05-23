@@ -2,6 +2,7 @@ import React from 'react';
 
 import ProjectTile from '../Project/Project';
 import Education from '../../Education/Education';
+import CForm from '../../ContactForm/ContactForm';
 import classes from './ProjectsPage.module.css'
 
 import CovidTracker from '../Images/covid.png';
@@ -80,6 +81,7 @@ const projects = () => {
             </section>
             
             <Education />
+            <CForm />
         </div>
     );
 };

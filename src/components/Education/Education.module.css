@@ -1,4 +1,4 @@
-.projectstitle {
+.EduTitle {
     margin: 40px 50px;
     font-size: 22px;
     color: var(--deepGreen);
@@ -19,10 +19,10 @@
     margin-bottom: 20px;
 }
 .degree{
-    height: 100px;
-    width: 100px;
+    height: 80px;
+    width: 80px;
 }
 .degree_names{
     margin-left: 20px;
-    font-size: 20px;
+    font-size: 18px;
 }

@@ -37,7 +37,7 @@ const aboutpage = () => {
                                 <ul className={styles.skills_ul}>
                                     <li><a href="https://github.com/rutwikhdev" target="_blank"><img className={styles.skills_ul_li} src={Github} alt=""/></a></li>
                                     <li><a href="https://github.com/rutwikhdev" target="_blank"><img className={styles.skills_ul_li} src={Kaggle} alt=""/></a></li>
-                                    <li><a href="https://github.com/rutwikhdev" target="_blank"><img className={styles.skills_ul_li} src={LinkedIn} alt=""/></a></li>
+                                    <li><a href="https://www.linkedin.com/in/rutwikhdev/" target="_blank"><img className={styles.skills_ul_li} src={LinkedIn} alt=""/></a></li>
                                     <li><a href="https://github.com/rutwikhdev" target="_blank"><img className={styles.skills_ul_li} src={Insta} alt=""/></a></li>
                                     <li><a href="https://github.com/rutwikhdev" target="_blank"><img className={styles.skills_ul_li} src={Twitter} alt=""/></a></li>
                                 </ul>
