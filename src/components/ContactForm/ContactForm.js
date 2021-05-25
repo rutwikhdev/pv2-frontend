@@ -15,10 +15,10 @@ const App = () => {
     e.preventDefault();
     
     send(
-      'SERVICE ID',
-      'TEMPLATE ID',
+      process.env.REACT_APP_SERVICE_ID,
+      process.env.REACT_APP_TEMPLATE_ID,
       toSend,
-      'USER ID'
+      process.env.REACT_APP_USER_ID
     ).then((response) => {
         alert("Mail sent successfully!");
     }).catch((err) => {
