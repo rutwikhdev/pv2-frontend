@@ -10,7 +10,7 @@ const projectTile = (props) => {
                 <div className={classes.postpreview}>
                     <h2 class={classes.posttitle}>{props.title}</h2>
                     <p class={classes.postintro}>{props.intro}</p>
-                    <a href={props.link} target="_blank">view on github</a>
+                    <a href={props.link} target="_blank" rel="noreferrer">view on github</a>
                 </div>
             </div>
         </div>

@@ -29,35 +29,39 @@ const aboutpage = () => {
                     <div class={styles.about_wrapper}>
                         <div class="about-me">
                             <h4>A little about me</h4>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unkn</p>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unkn</p>
+                            <p>I'm a 21 year old developer from Mumbai, India.<br/>Stack = [nodejs, react, flask, javascript, python, docker, tensorflow, github]</p>
+                            <p>Also I'm very familiar with linux and Deep Learning/Machine Learning.</p>
+                            <p>I've been learning and working on personal projects everyday for the past 2 years. And have worked with handful of technologies</p>
                             <h4>Get in touch</h4>
 
                             <div className={styles.skills}>
                                 <ul className={styles.skills_ul}>
-                                    <li><a href="https://github.com/rutwikhdev" target="_blank"><img className={styles.skills_ul_li} src={Github} alt=""/></a></li>
-                                    <li><a href="https://github.com/rutwikhdev" target="_blank"><img className={styles.skills_ul_li} src={Kaggle} alt=""/></a></li>
-                                    <li><a href="https://www.linkedin.com/in/rutwikhdev/" target="_blank"><img className={styles.skills_ul_li} src={LinkedIn} alt=""/></a></li>
-                                    <li><a href="https://github.com/rutwikhdev" target="_blank"><img className={styles.skills_ul_li} src={Insta} alt=""/></a></li>
-                                    <li><a href="https://github.com/rutwikhdev" target="_blank"><img className={styles.skills_ul_li} src={Twitter} alt=""/></a></li>
+                                    <li><a href="https://github.com/rutwikhdev" target="_blank" rel="noreferrer"><img className={styles.skills_ul_li} src={Github} alt="Github"/></a></li>
+                                    <li><a href="https://www.kaggle.com/rutwikhiwalkar" target="_blank" rel="noreferrer"><img className={styles.skills_ul_li} src={Kaggle} alt="Kaggle"/></a></li>
+                                    <li><a href="https://www.linkedin.com/in/rutwikhdev/" target="_blank" rel="noreferrer"><img className={styles.skills_ul_li} src={LinkedIn} alt="Linkedin"/></a></li>
+                                    <li><a href="https://github.com/rutwikhdev" target="_blank" rel="noreferrer"><img className={styles.skills_ul_li} src={Insta} alt="Instagram"/></a></li>
+                                    <li><a href="https://github.com/rutwikhdev" target="_blank" rel="noreferrer"><img className={styles.skills_ul_li} src={Twitter} alt="Twitter"/></a></li>
                                 </ul>
+                            </div>
+                            <div className={styles.resume_link}>
+                                <a href='../../../public/resume.pdf' download>Download Resume</a>
                             </div>
                         </div>
 
                         <div class={styles.social_links}>
                             <h4>I have worked with quite a bit.</h4>
                             <div>
-                                <img src={Python} />
-                                <img src={Javascript} />
+                                <img src={Python} alt="Python" title="Python"/>
+                                <img src={Javascript} alt="Javascript" title="Javascript"/>
                                 {/*}// <img src={GoLang} /> */}
-                                <img src={Docker} />
-                                <img src={Kubernetes} />
-                                <img src={ReactJs} />
-                                <img src={MySql} className={styles.linux}/>
-                                <img src={NodeJs} />
-                                <img src={Tensorflow} />
-                                <img src={Flask} className={styles.flask}/>
-                                <img src={Linux} className={styles.linux}/>
+                                <img src={Docker} alt="Docker" title="Docker"/>
+                                <img src={Kubernetes} alt="Kubernetes" title="Kubernetes"/>
+                                <img src={ReactJs} alt="ReactJS" title="ReactJS"/>
+                                <img src={MySql} className={styles.linux} alt="MySql" title="MySql"/>
+                                <img src={NodeJs} alt="NodeJS" title="NodeJS"/>
+                                <img src={Tensorflow} alt="Tensorflow" title="Tensorflow"/>
+                                <img src={Flask} className={styles.flask} alt="Flask" title="Flask"/>
+                                <img src={Linux} className={styles.linux} alt="Linux" title="Linux"/>
                                 
                                 {/* <img src={PyTorch} className={styles.pytorch}/> */}
                             </div>

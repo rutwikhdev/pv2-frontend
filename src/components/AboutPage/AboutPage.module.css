@@ -3,18 +3,22 @@ h4{
 	font-family: 'Noto Sans HK', sans-serif;
 	color: var(--deepGreen);
 }
+
 p{
-  color: #707793;
+  color: #989A9C;
 }
+
 .s2{
-	background-color: #2E3047;
+	background-color: #262626;
 	/* border-bottom: 1px solid var(--borderColor); */
 	overflow: auto;
 }
+
 .main_container{
 	width: 1200px;
 	margin: 0 auto;
 }
+
 .about_wrapper{
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
@@ -23,12 +27,14 @@ p{
 	gap:100px;
 
 }
+
 .skills{
 	display: flex;
 	justify-content: space-between;
-	background-color: #3C3F58;
+	background-color: #5E5252;
 	width: fit-content;
 }
+
 .skills_ul{
     list-style-type: None;
 	display: flex;
@@ -36,6 +42,7 @@ p{
 	justify-content: space-evenly;
 	padding: 0px 10px;
 }
+
 .skills_ul_li{
   background: var(--deepGreen);
   height: 50px;
@@ -44,24 +51,33 @@ p{
   border: 3px solid black;
   border-radius: 25%;
 }
+
 .social_links{
 	display: grid;
 	align-content: center;
 	text-align: center;
 }
+
 .flask{
   height: 75px;
   width: 75px;
 }
+
 .pytorch{
   height: 50px;
   width: 250px;
 }
+
 .linux{
   height: 80px;
   width: 80px;
   margin-left: 10px;
 }
+
+.resume_link{
+	margin-top: 25px;
+}
+
 @media (max-width: 1200px){
 	.main_container{
 	width: 95%;

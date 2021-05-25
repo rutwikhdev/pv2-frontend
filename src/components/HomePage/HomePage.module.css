@@ -1,7 +1,7 @@
 :root{
 	--mainColor: #388087;
-	--mainShadow:    12px 12px 24px #BADFE7,
-             -12px -12px 24px #a3cfad;
+	--mainShadow:    12px 12px 24px #858162,
+             -12px -12px 24px #858162;
     --mainRadius: 5px 5px 0 0;
 
 
@@ -10,7 +10,7 @@
              -12px -12px 24px #bcedc8;
 	--secondaryRadius: 5px;;
 
-	--borderColor: #86E6A1;
+	--borderColor: #858162;
 
 	--mainText: beige;
 	--secondaryText: #4b5156;
@@ -18,14 +18,14 @@
 	--themeDotBorder: white;
 
 	--previewBg: rgb(251, 249, 243, 0.6);
-	--previewShadow: #72b68a;
+	--previewShadow: #858162;
 	--previewShadow2: #7ca78b;
 
 	--inputField:  inset 8px 8px 24px #b0ddba,
             inset -8px -8px 24px #beefca;
 
 	--buttonColor: #9EC9A8;
-	--deepGreen: #3BBA9C;
+	--deepGreen: #D5CCBA;
 
 }
 h2, h3, h4, h5, h6, strong{
@@ -49,7 +49,7 @@ h3{
   height: 100vh;
   width: 100%;
   display: block;
-  background-color: #3BBA9C; /*#B61924 #ABCABA #696D7C*/
+  background-color: #D5CCBA; /*#B61924 #ABCABA #696D7C*/
 }
 
 .s1{
@@ -77,6 +77,11 @@ h3{
 	padding: 15px 25px;
 	position: relative;
 }
+
+.preview_shadow p {
+	color: #858162;
+}
+
 .greeting_wrapper{
 	display: grid;
 	text-align: center;
@@ -84,7 +89,7 @@ h3{
 	min-height: 10em;
 }
 .intro_wrapper{
-	background-color: var(--mainColor);
+	background-color: #426A79;
 	box-shadow: var(--mainShadow);
 	border-radius: var(--mainRadius);
 	border: 1px var(--borderColor);
@@ -131,7 +136,7 @@ h3{
 
 .browser_dot{
 	border-radius: 50%;
-	background: #FC6058;
+	background: #BE100E;
 	height: 15px;
 	width: 15px;
 	margin: 5px;
@@ -150,3 +155,28 @@ h3{
 	    'right_column';
   }
 }
+
+.left_column h1 {
+	width: fit-content;
+	overflow: hidden; /* Ensures the content is not revealed until the animation */
+	border-right: .15em solid orange; /* The typwriter cursor */
+	white-space: nowrap; /* Keeps the content on a single line */
+	margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+	margin-top: 35px;
+	/* letter-spacing: .15em; Adjust as needed */
+	animation: 
+	  typing 3.5s steps(40, end),
+	  blink-caret .75s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+	from { width: 0 }
+	to { width: 50% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+	from, to { border-color: transparent }
+	50% { border-color: #EAA549; }
+  }

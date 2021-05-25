@@ -25,8 +25,8 @@ form{
     font-family: 'Montserrat';
     font-size: 18px;
     color: whitesmoke;
-    background-color: #2E3047;
-    box-shadow: inset 2px 2px 5px #1e2047, inset -5px -5px 10px #454652;
+    background-color: #2e2e2e;
+    box-shadow: inset 2px 2px 5px #444444, inset -5px -5px 10px #444444;
 }
 .msgField{
     width: 600px;
@@ -35,11 +35,11 @@ form{
     border-radius: 10px;
     outline: none;
     border: none;
-    background-color: #2E3047;
+    background-color: #2e2e2e;
     color: whitesmoke;
     font-size: 18px;
     font-family: 'Montserrat';
-    box-shadow: inset 2px 2px 5px #1e2047, inset -5px -5px 10px #454652;
+    box-shadow: inset 2px 2px 5px #444444, inset -5px -5px 10px #444444;
 }
 button {
     font-size: 18px;

@@ -5,7 +5,6 @@ import Particles from 'react-particles-js';
 
 
 const particlesDefault = ( props ) => {
-    let pcolorWhite = "#ffffff";
     let pcolorGray = "#212121";
 
     return (

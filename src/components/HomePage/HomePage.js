@@ -5,8 +5,6 @@ import AboutPage from '../AboutPage/AboutPage';
 import ProjectsPage from '../ProjectsPage/Page/ProjectsPage';
 import Particles from '../ParticlesConfig/ParticlesConfig'
 
-import Me from '../../assets/logo/me.jpg';
-import RobotImage from '../../assets/logo/robot.jpg';
 
 const homepage = (props) => {
 
@@ -23,7 +21,6 @@ const homepage = (props) => {
             <section className={styles.s1}>
                 <div className={styles.main_container}>
                     <div className={styles.greeting_wrapper}>
-                        <h1>Hey, I'm Rutwik Hiwalkar</h1>
                     </div>
                     <div className={styles.intro_wrapper}>
                         <div className={styles.nav_wrapper}>
@@ -34,8 +31,11 @@ const homepage = (props) => {
                             </div>
                         </div>
 
-                        <div className={styles.left_column}>
+                        {/* <div className={styles.left_column}>
                             <img className={styles.profile_pic} src={Me} alt="profile pic"/>
+                        </div> */}
+                        <div className={styles.left_column}>
+                            <h1>Hey, I'm Rutwik Hiwalkar</h1>
                         </div>
 
                         <div className={styles.right_column}>
