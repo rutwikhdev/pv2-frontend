@@ -1,9 +1,12 @@
 import React, { useState } from 'react';
 import { send } from 'emailjs-com';
+import runtimeEnv from '@mars/heroku-js-runtime-env';
 
 import styles from './ContactForm.module.css';
 
 const App = () => {
+  const env = runtimeEnv();
+
   const [toSend, setToSend] = useState({
     from_name: '',
     to_name: 'rutwikhdev@gmail.com',
@@ -15,10 +18,10 @@ const App = () => {
     e.preventDefault();
     
     send(
-      process.env.SERVICE_ID,
-      process.env.TEMPLATE_ID,
+      env.SERVICE_ID,
+      env.TEMPLATE_ID,
       toSend,
-      process.env.USER_ID
+      env.USER_ID
     ).then((response) => {
         alert("Mail sent successfully!");
     }).catch((err) => {
